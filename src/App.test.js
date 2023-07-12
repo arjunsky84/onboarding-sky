@@ -5,7 +5,7 @@ test('renders heading', () => {
   render(<App />)
 
   const heading = screen.getByRole('heading', {
-      name: /hello, world!/i
+      name: /hello, world 123!/i
   })  
   expect(heading).toBeInTheDocument()  
 });
